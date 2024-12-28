@@ -1,0 +1,79 @@
+.view-post-details {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-overview h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .post-overview p {
+    margin: 5px 0;
+  }
+  
+  .status-open {
+    color: green;
+  }
+  
+  .status-closed {
+    color: red;
+  }
+  
+  .project-description, .required-skills, .attached-files, .freelancer-applications, .project-actions, .activity-log {
+    margin-top: 20px;
+  }
+  
+  .required-skills ul, .freelancer-applications ul, .activity-log ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .required-skills li, .application-item, .activity-log li {
+    margin-bottom: 10px;
+  }
+  
+  .file-item a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .application-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .application-actions button {
+    margin-right: 10px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .application-actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  .project-actions button {
+    margin-right: 15px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .project-actions button:hover {
+    background-color: #218838;
+  }
+  

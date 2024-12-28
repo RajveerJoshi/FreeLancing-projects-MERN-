@@ -1,0 +1,137 @@
+Global Styles
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height for centering */
+    overflow: hidden; /* Optional: Prevents any potential scroll */
+  }
+  
+  /* Common Styles for Pages */
+  .page-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 40px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* text-align: center; */
+    /* text-align: ; */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Hover effect for container */
+  /* .page-container:hover {
+    transform: translateY(-5px);
+  } */
+  
+  /* Header styles */
+  .page-header {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: 600;
+  }
+  
+  /* Form styles */
+  .page-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: stretch;
+  }
+  
+  /* Label styles */
+  .page-form label {
+    font-size: 0.9em;
+    color: #666;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-right: 10px;
+  }
+  
+  /* Input styles */
+  .page-input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    width: 100%;
+  }
+  
+  .page-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+    outline: none;
+  }
+  
+  /* Button styles */
+  .page-button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    font-size: 1em;
+    width: 100%;
+  }
+  
+  .page-button:hover {
+    background: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  /* Footer link styles */
+  .page-footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  .page-footer a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .page-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Image Container Styles */
+  .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Flex Container for Layout */
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+
+
+
+
+
+
+
+
+  
